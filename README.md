@@ -6,6 +6,7 @@
   Present I'm pursuing a Bachelor's degree. </p>
 
 ###
+<br>
 
 <h2 align="left">🖥️ Tech Stack:</h2>
 
@@ -26,6 +27,7 @@
 </div>
   
 ###
+<br>
 
 <h2 align="left">🌐 Socials</h2>
 <div align="left">
@@ -34,10 +36,4 @@
   <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="52" height="40" alt="discord logo"  />
 </div>
     
-###
-
-<div>
-    <img style="color:black;" src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" />
-</div>
-
 ###
