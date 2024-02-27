@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">My name is Kalyan Ram and I'm a pursuing Degree </p>
+<p align="left">My name is Kalyan Ram and Present I'm a pursuing Bachelor's degree </p>
 
 ###
 
