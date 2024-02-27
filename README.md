@@ -6,8 +6,6 @@
   Present I'm pursuing a Bachelor's degree. </p>
 
 ###
-<br>
-
 <h2 align="left">🖥️ Tech Stack:</h2>
 
 <div align="left">
@@ -27,7 +25,7 @@
 </div>
   
 ###
-<br>
+
 <h2 align="left">🌐 Socials</h2>
 <div align="left">
   <a href="https://www.linkedin.com/in/kalyan-ram-apt/"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="57" height="40" alt="linkedin logo"  /><a/>
