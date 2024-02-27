@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">My name is ... and I'm a ..., from ....</p>
+<p align="left">My name is Kalyan Ram and I'm a pursuing Degree </p>
 
 ###
 
