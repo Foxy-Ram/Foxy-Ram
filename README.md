@@ -3,7 +3,7 @@
 ###
 
 <p align="left">My name is Kalyan Ram <br>
-  Present I'm pursuing a Bachelor's degree in Computer science & Data science </p>
+  Present I'm pursuing a Bachelor's degree in Computer science & Data science. </p>
 
 ###
 <h2 align="left">🖥️ Tech Stack:</h2>
