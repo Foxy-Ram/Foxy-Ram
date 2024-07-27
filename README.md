@@ -60,8 +60,7 @@ class Develop(Life):
 
         description = " ".join(description)
 
-        return (f"{principle}\n"
-                f"{description}")
+        return (f"{principle}\n", f"{description}")
 ```
 
 **Class Usage**
