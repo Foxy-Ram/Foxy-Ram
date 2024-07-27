@@ -1,5 +1,5 @@
 ### Hello Folks 👋
-```
+```python
 class Develop(Life):
 
     def __init__(self):
@@ -19,6 +19,7 @@ class Develop(Life):
         Returns:
         - str: A friendly yet professional introduction.
         """
+
         fun_emojis = {
             'happy': '😄',
             'neutral': '😐',
@@ -49,19 +50,23 @@ class Develop(Life):
         Returns:
         - str: A comprehensive introduction to who I am.
         """
+
         principle = "Practice like you've never won, Perform like you've never lost"
         description = [
             "Python enthusiast with a keen interest in Data Science, Machine Learning, "
             "and Web Technologies. Eager to expand expertise and skills in these areas to drive career "
             "growth. Demonstrated commitment to continuous learning and professional development."
         ]
+
         description = " ".join(description)
+
         return (f"{principle}\n"
                 f"{description}")
     
 ```
 **Class Usage**
-```obj = Develop()
+```python
+obj = Develop()
 intro = obj.about_me("Kalyan", "Developer", "happy")
 journey = obj.read_learn_think_create()
 
