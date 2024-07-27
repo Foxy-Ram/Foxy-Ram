@@ -1,38 +1,59 @@
-<h1 align="left">Hey 👋 What's up?</h1>
+## Hello Folks
+```python
+def about_me(name: str, role: str = 'Developer', mood: str = 'neutral') -> str:
+    """
+    A function to introduce myself.
 
-###
+    Args:
+    - name (str): My name.
+    - role (str): My current role. Default is 'Developer'.
+    - mood (str): My current mood. Default is 'neutral'.
 
-<p align="left">My name is Kalyan Ram <br>
-  Present I'm pursuing a Bachelor's degree in Computer science & Data science. </p>
+    Returns:
+    - str: A friendly yet professional introduction.
+    """
+    fun_emojis = {
+        'happy': '😄',
+        'neutral': '😐',
+        'sad': '😞'
+    }
 
-###
-<h2 align="left">🖥️ Tech Stack:</h2>
+    mood_messages = {
+        'happy': "I'm excited to share my projects with you!",
+        'neutral': "Here you'll find a mix of professional and fun projects.",
+        'sad': "Sometimes, the best way to improve your mood is by coding."
+    }
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="java logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="40" alt="jupyter logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="mysql logo" />
-  <img width="12" />
-  <img src="https://cdn.worldvectorlogo.com/logos/fastapi.svg" height="40" alt="fastapi logo" />
-</div>
-  
-###
+    if mood not in fun_emojis:
+        return "Invalid mood! Please choose between 'happy', 'neutral', or 'sad'."
 
-<h2 align="left">🌐 Socials</h2>
-<div align="left">
-  <a href="https://www.linkedin.com/in/kalyan-ram-apt/"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="57" height="40" alt="linkedin logo"  /><a/>
-  <a href="https://www.hackerrank.com/profile/kalyanram17"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/hackerrank/default.svg" width="57" height="40" alt="hackerrank logo"  /><a/>
-  <a href="https://www.instagram.com/_i_kal_/?igsh=MXRpMmx4a3c0NDB4Ng%3D%3D"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="52" height="40" alt="instagram logo"  /><a/>
-</div>
-    <br><br>
-<img alt="Coder GIF" height=250 width=350 src="https://miro.medium.com/max/1360/0*7Q3yvSIv_t0ioJ-Z.gif" />
+    return (f"Hi there, I'm {name} {fun_emojis[mood]}!\n"
+            f"I'm currently a {role}. {mood_messages[mood]}\n")
+
+def read_learn_think_create(effort=True, interest=True, enthusiasm=True) -> str:
+    """
+    A function to describe my journey of continuous learning and creation.
+
+    Args:
+    - effort (bool): My dedication to putting in effort.
+    - interest (bool): My passion and interest in technology.
+    - enthusiasm (bool): My excitement and enthusiasm for learning and creating.
+
+    Returns:
+    - str: A comprehensive introduction to who I am.
+    """
+    principle = "Practice like you've never won, Perform like you've never lost"
+    description = [
+        "Python enthusiast with a keen interest in Data Science, Machine Learning, "
+        "and Web Technologies. Eager to expand expertise and skills in these areas to drive career "
+        "growth. Demonstrated commitment to continuous learning and professional development."
+    ]
+    description = " ".join(description)
+    return (f"{principle}\n"
+            f"{description}")
+
+# Example usage:
+intro = about_me("Kalyan", "Developer", "happy")
+journey = read_learn_think_create()
+
+print(intro + journey)
