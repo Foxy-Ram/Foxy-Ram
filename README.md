@@ -2,11 +2,10 @@
 ```python
 class Develop(Life):
 
-    def __init__(self, socials = True):
-        if socials:
-            self.linkedin = "https://www.linkedin.com/in/kalyan-ram-apt/"
-            self.hackerrank = "https://www.hackerrank.com/profile/kalyanram17"
-            self.portfolio = "https://foxy-ram.github.io/portfolio/"
+    def __init__(self):
+        self.linkedin = "https://www.linkedin.com/in/kalyan-ram-apt/"
+        self.hackerrank = "https://www.hackerrank.com/profile/kalyanram17"
+        self.portfolio = "https://foxy-ram.github.io/portfolio/"
 
     def about_me(self, name: str, role: str = 'Developer', mood: str = 'neutral') -> str:
         """
