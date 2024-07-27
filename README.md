@@ -62,8 +62,8 @@ class Develop(Life):
 
         return (f"{principle}\n"
                 f"{description}")
-    
 ```
+
 **Class Usage**
 ```python
 obj = Develop()
