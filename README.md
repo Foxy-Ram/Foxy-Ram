@@ -3,7 +3,7 @@
 class Develop(Life):
 
     def __init__(self):
-        self.linkedin = [!name]("https://www.linkedin.com/in/kalyan-ram-apt/")
+        self.linkedin = "https://www.linkedin.com/in/kalyan-ram-apt/"
         self.hackerrank = "https://www.hackerrank.com/profile/kalyanram17"
         self.portfolio = "https://foxy-ram.github.io/portfolio/"
 
